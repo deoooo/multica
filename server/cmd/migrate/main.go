@@ -195,6 +195,8 @@ var concurrentIndexCleanups = map[string]string{
 	"335_issue_status_workspace_key_index":                      "idx_issue_status_workspace_key",
 	"336_issue_status_workspace_name_index":                     "idx_issue_status_workspace_name_active",
 	"343_comment_delegated_failure_pending_index":               "idx_comment_delegated_failure_pending",
+	"344_agent_task_queue_chat_terminal_resume_index":           "idx_agent_task_queue_chat_terminal_resume",
+	"345_agent_task_queue_chat_retired_session_index":           "idx_agent_task_queue_chat_retired_session",
 }
 
 // concurrentDownIndexCleanups covers every migration whose down direction
